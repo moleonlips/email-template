@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Email template</title>
+   <link rel="stylesheet" href="./assets/css/main.css">
+   <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap');
+
+* {
+   font-family: 'Roboto Serif', serif;
+   font-size: 14px;
+   line-height: 26px;
+}
+
+.fs-18 {
+   font-size: 16px;
+   line-height: 28px;
+}
+
+.fs-22 {
+   font-size: 20px;
+   line-height: 30px;
+}
+
+.fw-bold {
+   font-weight: bold;
+}
+
+body {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   width: 100%;
+   position: relative;
+   text-align: justify;
+   line-height: 24px;
+}
+
+img {
+   width: 100%;
+}
+
+.img-icon-li {
+   width: 26px;
+}
+
+.text-blue {
+   color: rgb(0, 89, 255);
+}
+
+table,
+th,
+td {
+   border: 1px solid rgba(0, 0, 0, 0);
+}
+
+th,
+td {
+   padding: 0 5px;
+}
+
+table {
+   border-collapse: collapse;
+   width: 100%;
+   max-width: 800px;
+   margin: 0 auto;
+   position: relative;
+}
+
+table:first-child img {
+   width: calc(100% + 3%);
+}
+
+table:first-child th {
+   overflow: hidden;
+   display: flex;
+   justify-content: center;
+}
+
+table+table {
+   margin-bottom: 10px;
+}
+
+
+.head-temp {
+   background-image: url('./assets/img/head-bg-cbway.png');
+   background-size: contain;
+   background-position: top;
+   background-repeat: no-repeat;
+   padding: 30%;
+}
+
+tbody td {
+   padding: 0 40px;
+}
+
+tbody td:first-child {
+   margin-top: -40px;
+}
+
+.p-0 {
+   padding: 0;
+}
+
+.tbl-support, .tbl-support td {
+   display: flex;
+}
+
+.tbl-support {
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+.tbl-support td {
+   align-items: center;
+   flex: 1;
+   font-weight: bold;
+   justify-content: center;
+   color: rgb(0, 89, 255);
+}
+
+.tbl-support td img {
+   width: 35px;
+   margin-right: 10px;
+}
+
+.tbl-support td div {
+   flex: 1;
+}
+
+.tbl-follow img {
+   height: 50px;
+   width: 50px !important;
+   margin: 0 !important;
+}
+
+.tbl-follow td:first-child {
+   justify-content: flex-end;
+}
+
+.tbl-follow td:last-child {
+   justify-content: flex-start;
+}
+
+.m-0 {
+   margin: 0;
+}
+
+tfoot{
+   background-color: #f1f1f1;
+}
+
+@media (max-width: 940px) {
+   table:nth-child(2) {
+      margin-top: -3.5%;
+   }
+   .tbl-support td {
+      justify-content: flex-start;
+      width: 100% !important;
+   }
+
+   * {
+      font-family: 'Roboto Serif', serif;
+      font-size: 12px;
+      line-height: 20px;
+   }
+   
+   .fs-18 {
+      font-size: 14px;
+      line-height: 24px;
+   }
+   
+   .fs-22 {
+      font-size: 16px;
+      line-height: 26px;
+   }
+}
+@media (min-width: 941px) {
+   table:nth-child(2) {
+      margin-top: -2.5%;
+   }
+}
+@media (min-width: 1141px) {
+   table:nth-child(2) {
+      margin-top: -1.5%;
+   }
+}
+   </style>
+</head>
+
+<body>
+   <table class="root">
+      <thead>
+         <tr>
+            <th>
+               <img src="./assets/img/head-bg-cbway.png" alt="">
+            </th>
+         </tr>
+      </thead>
+
+      <tbody>
+         <tr>
+            <table>
+               <tr>
+                  <td class="fs-18 text-blue">Kính gửi: Quý Khách hàng NGUYEN THI LE THUY,</td>
+               </tr>
+            </table>
+         </tr>
+
+         <tr>
+            <table>
+               <tr>
+                  <td>
+                     Ngân hàng Xây dựng (CB) xin cảm ơn Quý khách đã quan tâm tới dịch vụ Ngân hàng điện tử - CBway của
+                     CB. CB
+                     xin trân trọng thông báo tài khoản CBway của Quý khách đã được đăng ký thành công với thông tin như
+                     sau:
+                  </td>
+               </tr>
+            </table>
+         </tr>
+
+         <tr>
+            <table class="include-tbl">
+               <tr>
+                  <td style="width: 35px">
+                     <img class="img-icon-li" src="./assets/img/icons/icon-li.png" alt="">
+                  </td>
+                  <td class="p-0">
+                     Tên đăng nhập: <b>mebobo</b>
+                  </td>
+               </tr>
+               <tr>
+                  <td style="width: 35px">
+                     <img class="img-icon-li" src="./assets/img/icons/icon-li.png" alt="">
+                  </td>
+                  <td class="p-0">
+                     Tài khoản thanh toán: <b>xxxxxxxxxx</b>
+                  </td>
+               </tr>
+               <tr>
+                  <td style="width: 35px">
+                     <img class="img-icon-li" src="./assets/img/icons/icon-li.png" alt="">
+                  </td>
+                  <td class="p-0">
+                     Số điện thoại đăng ký sử dụng dịch vụ: <b class="text-blue">0986 291 875</b>
+                  </td>
+               </tr>
+            </table>
+         </tr>
+
+         <tr>
+            <table>
+               <tr>
+                  <td>Ngay bây giờ, Quý khách đã có thể sử dụng CBway theo hướng dẫn <b class="text-blue">TẠI ĐÂY</b> và
+                     bắt đầu thực hiện các giao
+                     dịch trực tuyến. Để được hỗ trợ nâng cấp hạn mức giao dịch, Quý khách có thể thực hiện theo 2 cách
+                     sau:
+                  </td>
+               </tr>
+            </table>
+
+         </tr>
+
+         <tr>
+            <table>
+               <tr>
+                  <td colspan="3" style="text-align:center">Để được hỗ trợ vui lòng liên hệ:</td>
+               </tr>
+               <tr class="tbl-support">
+                  <td style="margin-top: 0">
+                     <img src="./assets/img/icons/icon-phone.png" alt="">
+                     <div>1900 1816</div>
+                  </td>
+                  <td>
+                     <img src="./assets/img/icons/icon-mail.png" alt="">
+                     <div>tdvkh@cbbank.vn</div>
+                  </td>
+                  <td>
+                     <img src="./assets/img/icons/icon-www.png" alt="">
+                     <div>www.cbbank.vn</div>
+                  </td>
+               </tr>
+               <tr>
+                  <table>
+                     <tr>
+                        <td colspan="3" style="text-align: center">
+                           <div style="border-radius: 8px; background-color: blue; color: #fff; width: 80%; line-height: 40px; margin: 0 auto;">CBway TRẢI NGHIỆM THEO CÁCH CỦA BẠN</div>
+                        </td>
+                     </tr>
+                  </table>
+               </tr>
+            </table>
+         </tr>
+
+
+         <tr>
+            <table>
+               <tr>
+                  <td colspan="3" style="text-align:center">Theo dõi chúng tôi tại:</td>
+               </tr>
+               <tr class="tbl-support tbl-follow">
+                  <td style="margin-top: 0">
+                     <img src="./assets/img/icons/icon-facebook.png" alt="facebook">
+                  </td>
+                  <td>
+                     <img src="./assets/img/icons/icon-zalo.png" alt="zalo">
+                  </td>
+               </tr>
+            </table>
+         </tr>
+         <tr>
+            <table>
+               <tr>
+                  <td>Trân trọng!</td>
+               </tr>
+            </table>
+         </tr>
+         <tr>
+            <table>
+               <tr>
+
+               </tr>
+            </table>
+         </tr>
+      </tbody>
+
+      <tfoot>
+         <tr>
+            <table>
+               <tr>
+                  <td style="width: 60%; vertical-align: top; padding-top: 5px;">
+                     Khách hàng có thể trải nghiệm CBway bằng cách tìm kiếm từ khóa “CBway” trên App
+                     Store (iOS) hoặc
+                     CH play (Android) để tải và cài đặt hoặc quét mã QR Code:
+                  </td>
+
+                  <td style="width: 40%; vertical-align: top;">
+                     <table style="width: 100%">
+                        <tr>
+                           <td class="p-0">
+                              <img src="./assets/img/app-store-qr.png" alt="">
+                           </td>
+                           <td class="p-0">
+                              <img src="./assets/img/app-store-qr.png" alt="">
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" style="text-align: center" class="p-0">
+                              <b>Quét và trải nghiệm ngay</b>
+                           </td>
+                        </tr>
+                     </table>
+                  </td>
+               </tr>
+            </table>
+         </tr>
+      </tfoot>
+   </table>
+</body>
+
+</html>
